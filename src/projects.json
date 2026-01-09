@@ -1,0 +1,38 @@
+[
+  {
+    "id": "resident-portal",
+    "title": "Resident Portal",
+    "description": "Angular-based web interface for managing identity data with secure authentication, multi-lingual support, and responsive design.",
+    "tech": ["Angular", "TypeScript", "Material UI", "i18n", "REST APIs"],
+    "image": "assets/images/internphoto.jpg",
+    "codeUrl": "#",
+    "demoUrl": "#"
+  },
+  {
+    "id": "compass-admin",
+    "title": "Compass Admin",
+    "description": "ReactJS admin dashboard for secure credential management with Keycloak authentication and responsive UI.",
+    "tech": ["React", "Redux", "Keycloak", "Tailwind CSS", "DaisyUI"],
+    "image": "assets/images/respo.jpeg",
+    "codeUrl": "#",
+    "demoUrl": "#"
+  },
+  {
+    "id": "devtinder",
+    "title": "DevTinder",
+    "description": "MERN social networking app for developers with real-time chat and project collaboration.",
+    "tech": ["MongoDB", "Express", "React", "Node.js", "Mongoose", "JWT", "AWS"],
+    "image": "assets/images/respo.png",
+    "codeUrl": "#",
+    "demoUrl": "#"
+  },
+  {
+    "id": "rest-countries-explorer",
+    "title": "REST Countries Explorer",
+    "description": "Frontend Mentor challenge: filtering by region, dark mode, and country details.",
+    "tech": ["React", "JavaScript", "REST API", "Styled Components"],
+    "image": "assets/images/me.jpg",
+    "codeUrl": "#",
+    "demoUrl": "#"
+  }
+]

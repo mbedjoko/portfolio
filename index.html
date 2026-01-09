@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio - Bedjoko Michel</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="images/x-icon" href="assets/images/favicon.ico">
+</head>
+<body>
+  <header id="site-header">
+    <a class="logo" href="index.html">Bedjoko</a>
+
+    <!-- nav (desktop) -->
+    <nav id="main-nav" aria-label="Navigation principale">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hamburger pour mobile -->
+    <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <!-- Mobile nav (drawer sous le header) -->
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <a href="#home" data-close>Home</a>
+      <a href="#about" data-close>About</a>
+      <a href="#experience" data-close>Experience</a>
+      <a href="#skills" data-close>Skills</a>
+      <a href="#projects" data-close>Projects</a>
+      <a href="#services" data-close>Services</a>
+      <a href="#contact" data-close>Contact</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HOME / PROFILE -->
+    <section id="home" class="profile">
+      <img src="assets/images/internphoto.jpg" alt="Bedjoko Michel" class="avatar" />
+      <div>
+        <p class="intro-label">Hello, I'm</p>
+        <h1>Bedjoko Michel</h1>
+        <h4>Full Stack Developer</h4>
+        <p class="intro-sub">Building fast, scalable web apps with MongoDB, Express.js, React and Node.js.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projects">Explore the portfolio</a>
+          <a class="btn btn-outline" href="assets/Cv.pdf" target="_blank" rel="noopener">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-section">
+      <div class="about-title-left">
+        <h5>Get To Know</h5>
+        <h2>About Me</h2>
+        <p>I am a passionate Full Stack Developer with 4 years of experience. I build scalable, user-friendly applications using MongoDB, Express.js, React.js and Node.js.</p>
+        <div class="actions">
+          <a class="btn btn-outline" href="#experience">Education</a>
+          <a class="btn btn-outline" href="#contact">Location</a>
+          <a class="btn btn-outline" href="#experience">My Experience</a>
+        </div>
+      </div>
+
+      <img src="assets/images/respo.jpeg" alt="About Image"/>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="Experience-section experience--madhura">
+      <div class="exp-header">
+        <h5>My Journey</h5>
+        <h2>Work Experience</h2>
+      </div>
+
+      <div class="exp-fullstack">
+        <article class="exp-card exp-card--full">
+          <h3>Full Stack Developer</h3>
+          <h4>MOSIP — Bengaluru, Karnataka</h4>
+          <p class="date">01/2024 – Present</p>
+          <ul>
+            <li>Developing and maintaining web applications using the MERN stack.</li>
+            <li>Collaborating with cross-functional teams to design and ship features.</li>
+            <li>Building secure, scalable identity management systems.</li>
+            <li>Ensuring responsive design and cross-browser support.</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="exp-bottom">
+        <article class="exp-card">
+          <h3>Front-end Developer</h3>
+          <h4>Mountblue Technologies — Bengaluru, Karnataka</h4>
+          <p class="date">08/2022 – 12/2023</p>
+          <ul>
+            <li>Built responsive apps using React &amp; Angular.</li>
+            <li>State management with Redux &amp; Context API.</li>
+            <li>Integrated UI with backend APIs.</li>
+            <li>Performance optimisation &amp; best practices.</li>
+          </ul>
+        </article>
+
+        <article class="exp-card">
+          <h3>Back-end Developer</h3>
+          <h4>Backend Responsibilities</h4>
+          <p class="date">Ongoing / Additional</p>
+          <ul>
+            <li>Server development with Node.js &amp; Express.</li>
+            <li>Designed and secured REST APIs.</li>
+            <li>Database design and optimisation (MongoDB).</li>
+            <li>Reliability, testing and clean architecture.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="skills-section">
+      <div class="skills-header">
+        <h5>What I Know</h5>
+        <h2>My Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SCSS</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Frameworks & Libraries</h3>
+          <ul>
+            <li>React</li>
+            <li>Angular</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Tailwind CSS</li>
+            <li>Material UI</li>
+            <li>Redux</li>
+            <li>Mongoose</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <ul>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Testing Tools</h3>
+          <ul>
+            <li>Jest</li>
+            <li>Cypress</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git</li>
+            <li>GitLab</li>
+            <li>Jira</li>
+            <li>VS Code</li>
+            <li>Postman</li>
+            <li>Nginx</li>
+            <li>AWS</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Expertise</h3>
+          <ul>
+            <li>Responsive Design</li>
+            <li>State Management</li>
+            <li>Frontend Testing</li>
+            <li>JWT</li>
+            <li>OAuth</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="projects-section">
+      <div class="projects-header">
+        <h5>My Recent Work</h5>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Resident Portal</h3>
+          <p class="project-sub">Angular-based web interface for managing identity data with secure authentication, multi-lingual support, and responsive design.</p>
+          <ul class="tech-list">
+            <li>Angular</li>
+            <li>TypeScript</li>
+            <li>Material UI</li>
+            <li>i18n</li>
+            <li>REST APIs</li>
+          </ul>
+          <div class="project-actions">
+            <a class="btn btn-outline" href="#" aria-label="Code Resident Portal">Code</a>
+            <a class="btn btn-primary" href="#" aria-label="Demo Resident Portal">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Compass Admin</h3>
+          <p class="project-sub">ReactJS admin dashboard for secure credential management with Keycloak-based authentication and a responsive UI for streamlined data entry and role-based access control.</p>
+          <ul class="tech-list">
+            <li>React</li>
+            <li>Redux</li>
+            <li>Keycloak</li>
+            <li>Tailwind CSS</li>
+            <li>DaisyUI</li>
+          </ul>
+          <div class="project-actions">
+            <a class="btn btn-outline" href="#" aria-label="Code Compass Admin">Code</a>
+            <a class="btn btn-primary" href="#" aria-label="Demo Compass Admin">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>DevTinder</h3>
+          <p class="project-sub">MERN stack app for developer networking, with real-time chat, profile matching, and project collaboration features deployed on AWS.</p>
+          <ul class="tech-list">
+            <li>MongoDB</li>
+            <li>Express</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Mongoose</li>
+            <li>JWT</li>
+            <li>AWS</li>
+          </ul>
+          <div class="project-actions">
+            <a class="btn btn-outline" href="#" aria-label="Code DevTinder">Code</a>
+            <a class="btn btn-primary" href="#" aria-label="Demo DevTinder">Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>REST Countries Explorer</h3>
+          <p class="project-sub">Frontend Mentor challenge solution using REST Countries API. Includes filtering by region, dark mode toggle, and country detail pages.</p>
+          <ul class="tech-list">
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>REST API</li>
+            <li>Styled Components</li>
+          </ul>
+          <div class="project-actions">
+            <a class="btn btn-outline" href="#" aria-label="Code REST Countries Explorer">Code</a>
+            <a class="btn btn-primary" href="#" aria-label="Demo REST Countries Explorer">Demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services-section">
+      <div class="services-header">
+        <h5>What I Offer</h5>
+        <h2>My Services</h2>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <h3>Frontend Development</h3>
+          <p>Building responsive and interactive user interfaces using modern frontend technologies like React and Angular.</p>
+          <ul>
+            <li>Responsive Design</li>
+            <li>UI/UX Implementation</li>
+            <li>State Management</li>
+            <li>Performance Optimization</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <h3>Backend Development</h3>
+          <p>Creating robust server-side applications using Node.js, Express, and other backend technologies.</p>
+          <ul>
+            <li>API Development</li>
+            <li>Authentication</li>
+            <li>Server Configuration</li>
+            <li>Performance Optimization</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <h3>Database Design</h3>
+          <p>Designing and optimizing database schemas and queries for MongoDB and other database systems.</p>
+          <ul>
+            <li>Schema Design</li>
+            <li>Query Optimization</li>
+            <li>Data Modeling</li>
+            <li>Database Management</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <h3>Full Stack Development</h3>
+          <p>End-to-end development of web applications, from designing responsive UIs to building robust backends.</p>
+          <ul>
+            <li>MERN Stack</li>
+            <li>Full Application Lifecycle</li>
+            <li>Deployment</li>
+            <li>Maintenance</li>
+          </ul>
+        </article>
+      </div>
+
+      <p class="services-footer">
+        I offer end-to-end web development services, from designing responsive UIs to building robust backends.
+        <br>Let's work together to bring your web application ideas to life.
+      </p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+      <!-- TITRE CENTRÉ -->
+      <div class="contact-title-center" aria-hidden="false">
+        <h5>Get To Know</h5>
+        <h2>Get In Touch / Contact Me</h2>
+      </div>
+
+      <!-- Colonne gauche : header + contact info -->
+      <div class="contact-side">
+        <div class="contact-top" aria-hidden="false">
+          <h3>Let's Discuss Your Project</h3>
+          <p>I'd love to hear about your project and how I can help. Reach out via email, phone or on my profiles — ou utilise le formulaire à droite.</p>
+
+         <div class="contact-info" role="list">
+  <!-- Email -->
+  <a class="contact-link"
+     href="mailto:m.mekeme@yahoo.com?subject=Demande%20de%20contact&body=Bonjour%2C%20je%20veux%20plus%20d%27informations."
+     role="listitem"
+     aria-label="Envoyer un email à Bedjoko">
+
+    <span class="icon" aria-hidden="true">
+      <!-- SVG email -->
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M3 8.5v7A2.5 2.5 0 0 0 5.5 18h13A2.5 2.5 0 0 0 21 15.5v-7"
+              stroke="#0b74da" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M21 7.2L12 12 3 7.2"
+              stroke="#0b74da" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </span>
+
+    <div>
+      <h4>Email</h4>
+      <p>m.mekeme@yahoo.com</p>
+    </div>
+
+  </a>
+
+
+
+            <!-- Phone -->
+            <a class="contact-link" href="https://wa.me/237695451586" role="listitem" aria-label="Appeler Bedjoko">
+              <span class="icon" aria-hidden="true">
+                <!-- SVG phone -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M22 16.92V21a1 1 0 0 1-1.11 1 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2 3.11 1 1 0 0 1 3 2h4.09a1 1 0 0 1 1 .75c.12.74.36 1.45.7 2.11a1 1 0 0 1-.24 1L7.91 8.09a16 16 0 0 0 6 6l1.23-1.23a1 1 0 0 1 1-.24c.66.34 1.37.58 2.11.7a1 1 0 0 1 .75 1V21z" stroke="#0b74da" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <div>
+                <h4>Phone</h4>
+                <p>+237 695-45-15-86</p>
+              </div>
+            </a>
+
+            <!-- LinkedIn -->
+            <a class="contact-link" href="https://www.linkedin.com/in/mekeme-bedjoko-michel-930b43249/" target="_blank" rel="noopener" role="listitem" aria-label="Voir le profil LinkedIn">
+              <span class="icon" aria-hidden="true">
+                <!-- SVG linkedin -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-14h4v2a4 4 0 0 1 4-2zM2 9h4v14H2zM4 3a2 2 0 1 1 0 4 2 2 0 0 1 0-4z" stroke="#0b74da" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <div>
+                <h4>LinkedIn</h4>
+                <p>Mekeme Bedjoko Michel</p>
+              </div>
+            </a>
+
+            <!-- GitHub -->
+            <a class="contact-link" href="https://github.com/mbedjoko" target="_blank" rel="noopener" role="listitem" aria-label="Voir le profil GitHub">
+              <span class="icon" aria-hidden="true">
+                <!-- SVG github -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.2.8-.5v-2c-3.3.7-4-1.6-4-1.6-.5-1.3-1.2-1.6-1.2-1.6-1-.6.1-.6.1-.6 1.1.1 1.7 1.1 1.7 1.1 1 .1 1.6-.8 1.6-.8.9-1.6 2.4-1.1 3-.8.1-.6.4-1.1.7-1.4-2.6-.3-5.3-1.3-5.3-5.9 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.6.1-3.3 0 0 1-.3 3.3 1.2a11.7 11.7 0 0 1 6 0C17.6 3 18.6 3.3 18.6 3.3c.6 1.7.2 3 .1 3.3.7.9 1.2 1.9 1.2 3.2 0 4.6-2.7 5.6-5.3 5.9.4.4.8 1 .8 2v3c0 .3.2.6.8.5A12 12 0 0 0 12 .5z" stroke="#0b74da" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <div>
+                <h4>GitHub</h4>
+                <p>mbedjoko</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Colonne droite : formulaire -->
+      <form id="contact-form" class="contact-form" aria-label="Formulaire de contact">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input id="name" name="name" type="text" placeholder="Bedjoko Michel" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email" placeholder="m.mekeme@example.com" />
+        </div>
+
+        <div class="form-group form-full">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..."></textarea>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <h3>Bedjoko Michel</h3>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p>© 2025 Bedjoko Michel • All rights reserved</p>
+    </footer>
+  </main>
+js
+  <script src="js/script.js" defer></script>
+</body>
+</html>
