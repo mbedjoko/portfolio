@@ -19,6 +19,7 @@ Here are some highlighted projects featured in this portfolio:
 🔹 Tech stack: Python, React, SQL, etc
 
 *(Add more projects below as you build them)*
+so let's talk
 
 ---
 
