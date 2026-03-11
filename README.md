@@ -20,7 +20,7 @@ Here are some highlighted projects featured in this portfolio:
 
 *(Add more projects below as you build them)*
 so let's talk
-fafa
+fafado      
 ---
 
 ## 🛠 Technologies I Use
