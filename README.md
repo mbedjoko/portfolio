@@ -19,8 +19,6 @@ Here are some highlighted projects featured in this portfolio:
 🔹 Tech stack: Python, React, SQL, etc
 
 *(Add more projects below as you build them)*
-Second Pull Shark test
-sdm
 ---
 
 ## 🛠 Technologies I Use
